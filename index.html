@@ -8,11 +8,73 @@
     <script type="module" src="https://pyscript.net/releases/2025.2.2/core.js"></script>
 </head>
 <body>
-    <h1>PyScript Example</h1>
-    <p id="output"></p>
-    <h3>Boy or girl</h3>
+    <h1>dateFinderFromSpecs</h1>
+    
+    <h3>ผู้ชาย or ผู้หญิง</h3>
     <input type="checkbox" id="boy">
+    <label for="boy">ผู้ชาย </label>
+    <br>
     <input type="checkbox" id="girl">
+    <label for="girl">ผู้หญิง </label>
+
+    
+    <h3>ใส่แว่น or ไม่ใส่แว่น</h3>
+    <input type="checkbox" id="glasses">
+    <label for="glasses">ใส่แว่น </label>
+    <br>
+    <input type="checkbox" id="ng">
+    <label for="ng">ไม่ใส่แว่น </label>
+
+
+    <h3>ความสูง</h3>
+    <input type="checkbox" id="short">
+    <label for="short">ตัวเล็ก</label>
+    <br>
+    <input type="checkbox" id="avg">
+    <label for="avg">สูงตามเกณฑ์ </label>
+    <br>
+    <input type="checkbox" id="tall">
+    <label for="tall">สูง</label>
+
+    <h3>เล่นดนตรี or เล่นกีฬา or เนิร์ด</h3>
+    <input type="checkbox" id="music">
+    <label for="music">ดนตรี </label>
+    <br>
+    <input type="checkbox" id="sports">
+    <label for="sports">กีฬา </label>
+    <br>
+    <input type="checkbox" id="nerd">
+    <label for="nerd">เนิร์ด </label>
+
+    <h3>เงียบๆ or เฟรนด์ลี่ or กวนตีน</h3>
+    <input type="checkbox" id="introvert">
+    <label for="introvert">เงี่ยบๆ </label>
+    <br>
+    <input type="checkbox" id="friendly">
+    <label for="friendly">เฟรนด์ลี่ </label>
+    <br>
+    <input type="checkbox" id="stirfeet">
+    <label for="stirfeet">กวนตีน </label>
+
+    <h3>ผมสั้น or ผมยาว</h3>
+    <input type="checkbox" id="shorthair">
+    <label for="shorthair">ผมสั้น </label>
+    <br>
+    <input type="checkbox" id="longhair">
+    <label for="longhair">ผมยาว </label>
+
+    <h3>รวย?</h3>
+    <input type="checkbox" id="rich">
+    <label for="rich">รวย </label>
+
+    <h3>ใส่ที่ดัดฟัน?</h3>
+    <input type="checkbox" id="braces">
+    <label for="braces">ใส่ที่ดัดฟัน </label>
+    <p id="log"></p>
+<br>
+<br>
     <script type="py" src="./main.py" config="./pyscript.json"></script>
+    <button py-click="Submit" id="Submit">Submit</button>
+    <p id="output"></p>
 </body>
 </html>
