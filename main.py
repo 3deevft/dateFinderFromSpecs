@@ -97,7 +97,7 @@ def Submit(event):
     #res = set(list[0]).intersection(set(list[1]))
   
 
-    print("Your spec matches : "+" , ".join(res))
+    print("จากสเปคแล้วคุณเหมาะกับ : "+" , ".join(res))
     
     
    
