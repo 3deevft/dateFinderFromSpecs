@@ -102,8 +102,8 @@ def Submit(event):
     try:
         res = set(list[0]).intersection(*map(set, list[1:]))
         #res = set(list[0]).intersection(set(list[1]))
-        resfin = "Your spec matches : "+" , ".join(res)
-    except TypeError:
+        resfin = "จากสเปคแล้วคุณเหมาะกับ : "+" , ".join(res)
+    except:
         resfin = "ไม่พบคนตามสเปค"
   
     
