@@ -46,15 +46,22 @@
     <input type="checkbox" id="nerd">
     <label for="nerd">เนิร์ด </label>
 
-    <h3>เงียบๆ or เฟรนด์ลี่ or กวนตีน</h3>
-    <input type="checkbox" id="introvert">
-    <label for="introvert">เงี่ยบๆ </label>
-    <br>
-    <input type="checkbox" id="friendly">
-    <label for="friendly">เฟรนด์ลี่ </label>
+    <h3>พูดเพราะ or กวนตีน</h3>
+    <input type="checkbox" id="polite">
+    <label for="polite">พูดเพราะ </label>
     <br>
     <input type="checkbox" id="stirfeet">
     <label for="stirfeet">กวนตีน </label>
+
+    <h3>MBTI ไทป์</h3>
+    <input type="checkbox" id="introvert">
+    <label for="introvert">อินโทรเวิร์ต </label>
+    <br>
+    <input type="checkbox" id="extrovert">
+    <label for="extrovert">เอกซ์โทรเวิร์ต </label>
+    <input type="checkbox" id="ambivert">
+    <label for="ambivert">แอมบิเวิร์ต </label>
+    <br>
 
     <h3>ผมสั้น or ผมยาว</h3>
     <input type="checkbox" id="shorthair">
@@ -70,9 +77,11 @@
     <h3>ใส่ที่ดัดฟัน?</h3>
     <input type="checkbox" id="braces">
     <label for="braces">ใส่ที่ดัดฟัน </label>
-    <p id="log"></p>
+
+    
+    
 <br>
-<br>
+
     <script type="py" src="./main.py" config="./pyscript.json"></script>
     <button py-click="Submit" id="Submit">Submit</button>
     <p id="output"></p>
