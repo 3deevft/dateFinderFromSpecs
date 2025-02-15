@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./main.css">
     <script>
         key = document.getElementById("key").value
+        keye = document.getElementById("key")
         button = document.getElementById("showkey")
         body = document.getElementById("main")
         function onclick(){
@@ -16,6 +17,12 @@
                 body.style.visibility = "visible"
             }
         }
+        keye.addEventListener('keypress', function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            keye.submit();
+        }
+});
     </script>
 </head>
 <body>
