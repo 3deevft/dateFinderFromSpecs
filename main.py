@@ -41,7 +41,9 @@ def Submit(event):
         specsin.append("rich")  
     if document.querySelector("#braces").checked:
         specsin.append("braces")  
-
+    if !(document.querySelector("#stirfeet") and !(document.querySelector("#polite").checked):
+        specsin.append("boy")
+        specsin.append("girl")
     """ info={
         "boy" : document.querySelector("#boy").checked,
         "girl" : document.querySelector("#girl").checked,
@@ -59,7 +61,8 @@ def Submit(event):
         "shorthair" : document.querySelector("#shorthair").checked,
         "longhair" : document.querySelector("#longhair").checked,
         "rich" : document.querySelector("#rich").checked,
-        "braces" : document.querySelector("#braces").checked
+        "braces" : document.querySelector("#braces").checked,
+"profane" : document.querySelector("#profane").checked
     }
      """
     #for i in info.values():
