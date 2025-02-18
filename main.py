@@ -45,7 +45,7 @@ def Submit(event):
     if document.querySelector("#boy").checked:
     specsin.append("boyout")
     elif document.querySelector("#girl").checked:
-    specsin.append("girlout"")
+    specsin.append("girlout")
     
     """ info={
         "boy" : document.querySelector("#boy").checked,
