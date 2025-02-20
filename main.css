@@ -1,6 +1,6 @@
 img {
     width: 30%;
-    length: 50%;
+    length: 15%;
     display: flex;
 }
 html {
@@ -20,6 +20,7 @@ header {
 }
 body {
     background-color: #ee6a6d;
+    margin-left: 0px;
     padding: 0;
     margin: 0;
 }
@@ -31,6 +32,7 @@ h1 {
 }
 #main {
     margin: 15px;
+    align-items: center;
 
 }
 #box {
@@ -64,4 +66,10 @@ h1 {
     font-size: 70px;
 
 
+}
+button{
+    width:90%;
+    font-size: 100%;
+    align-self: center;
+    
 }
