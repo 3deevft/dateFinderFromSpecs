@@ -1,55 +1,67 @@
-img{
+img {
     width: 30%;
-    length:50%;
+    length: 50%;
     display: flex;
 }
-html{
-    margin: 0px;
+html {
+    margin: 0;
 }
-header{
+header {
     background-color: #6b3245;
-    margin: 0px;
+    margin: 0;
     display: flex;
     padding-bottom: 10px;
 }
-.hheader{
+.hheader {
     display: flex;
     text-align: center;
     align-self: center;
-    color:#ee6a6d;
+    color: #ee6a6d;
 }
-body{
+body {
     background-color: #ee6a6d;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
-h1{
+h1 {
     /*margin:10px;*/
-    color: #ee6a6d;;
+    color: #ee6a6d;
     font-size: 40px;
 }
-#main{
-    margin:15px;
+#main {
+    margin: 15px;
 
 }
-#box{
-    margin: 0px;
-    
+#box {
+    margin: 0;
     background-color: #f3a3ab;
-    padding:10px;
-    
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-rows: auto; /* Let rows adjust dynamically */
+    gap: 10px; /* Space between items */
 }
-.box{
-    margin: 10px;
+
+.box {
+    margin: 0; /* Remove extra margins */
+    padding: 10px; /* Add padding instead */
+    /*background-color: white; /* Optional: for visibility */*/
+    border-radius: 10px; /* Optional: for a cleaner look */
 }
-h3{
-    font-size: 55px;
+
+h3 {
+    font-size: 3rem;
 }
-label{
-    font-size: 40px;
+label {
+    font-size: 2rem;
 }
-input{
+input {
     width: 30px;
     height: 30px;
+}
+h1 {
+    font-size: 70px;
+
+
 }
